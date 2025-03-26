@@ -2,7 +2,7 @@ name: Publish Docker image and update k8s manifest
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 permissions:
   contents: write
